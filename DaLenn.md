@@ -4,19 +4,19 @@ Last modification : Nov 18, 2020
 Published : Nov 18, 2020  
 By : Nolwenn CHEVALIER (HTML, JS, CSS) and Liza JAKEZ-VARGAS (research)  
 
-> __Penaos digeriñ ar fichennaoueg *DaLenn.md* evit ma vefe aes da lenn ?__
+> __Penaos digeriñ ar fichennaoueg *DaLenn.md* evit ma vo aes da lenn ?__
 > - war *GitHub* : diouzhtu war *GitHub* 
-> - ma vez enrollet war ur urzhiataer : 
+> - ma vez enrollet war un urzhiataer : 
 >    - da skouer : Notepad++, Sublime Text, etc a lenn ar fichennaouegoù markdown digudenn 
 >    - pe c'hoazh : Mozilla gant un astenn lenner markdown (GitLab Markdown Viewer, Markdown Viewer Webext, etc) 
 
 ## Kinnig ar raktres 
 
-- **_DiazDataVideo.html_ :** diaz data videioù e brezhoneg
+- **_DiazDataVideo.html_ :** diaz data videoioù e brezhoneg
 - **_DDV.js_ :** fichennaoueg JavaScript liammet da *DiazDataVideo.html*, krouiñ a ra ar checkboxoù/boutonoù radio hag o mont-en-dro
 - **_DDV.css_ :** fichennaoueg CSS liammet da *DiazDataVideo.html*
 
-### Petra 'vo kavet er fichennaoueg HTML ? 
+### Petra a vo kavet er fichennaoueg HTML ? 
 
 - **Patrom  :**
 ```xml
@@ -30,7 +30,7 @@ By : Nolwenn CHEVALIER (HTML, JS, CSS) and Liza JAKEZ-VARGAS (research)
     <span class="subtitle">istitloù</span><br/>
     <span class="topic">tagoù (anvioù boutin)</span>
     <span class="subject">tagoù (anvioù divoutin)</span><br/>
-    <p>diweradenn</p><br/>
+    <p>diveradenn</p><br/>
 </article>
 ```
 
@@ -52,30 +52,30 @@ By : Nolwenn CHEVALIER (HTML, JS, CSS) and Liza JAKEZ-VARGAS (research)
 
 #### Penaos leuniañ anezhañ ?
 - na leuniit nemet an titouroù a zo e diabazh ar `<span>` pe `<p>` 
-- na touchit ket d'an doareennoù nag da urzh ar balizennoù (difennet groñs eo è.é) !  
+- arabat touchañ an doareennoù na urzh ar balizennoù (difennet groñs eo è.é) !  
 - **`<span>`** : 
     - un talvoud  : `<span>AAA</span>`
-    - meur a talvoud (dispartiet gant esaouenn+pik-skej+esaouenn)  : `<span>AAA ; BBB ; CCC</span>`
+    - meur a dalvoud (dispartiet gant esaouenn+pik-skej+esaouenn)  : `<span>AAA ; BBB ; CCC</span>`
     - talvoud ebet : ` ` (`<span>` ebet)
-- **`<br/>`** : an holl linennoù en ur `<article>` a echu gant ur `<br/>` (estreget `<span class="topic">` ma vez heuliet gant `<span class="subject">`)
-- a-raok leuniañ anv un abadenn, ur sevener·ez, etc, kit da welet e checkboxoù an HTML evit gwelet ma 'vez outañ dija ha penaos eo skrivet
+- **`<br/>`** : an holl linennoù en un `<article>` a echu gant ur `<br/>` (estreget `<span class="topic">` ma vez heuliet gant `<span class="subject">`)
+- a-raok leuniañ anv un abadenn, ur sevener·ez, etc, kit da welet e checkboxoù an HTML da welet hag-eñ e vez anezhañ dija ha penaos eo skrivet
 
-| elfen                     |  niver a talvoudoù posupl   | doare               |
+| elfenn                    |  niver a dalvoudoù posupl   | doare               |
 |---------------------------|-----------------------------|---------------------|
 | `<h2>`                    | unan                        | ret                 |
-| `<span class="editor">`   | unan pe +                   | opsionel            |
-| `<span class="origin">`   | unan                        | opsionel            |
+| `<span class="editor">`   | unan pe +                   | diret           	|
+| `<span class="origin">`   | unan                        | diret            	|
 | `<span class="author">`   | unan pe +                   | ret                 |
 | `<span class="type">`     | unan                        | ret                 |
 | `<span class="time">`     | unan                        | ret                 |
 | `<span class="subtitle">` | unan pe +                   | ret                 |
 | `<span class="topic">`    | unan pe +                   | ret                 |
-| `<span class="subject">`  | unan pe +                   | opsionel            |
-| `<p>`                     |                             | opsionel            |
+| `<span class="subject">`  | unan pe +                   | diret            	|
+| `<p>`                     |                             | diret            	|
 
 #### `<h2>Titl</h2>`
 - titl ar video 
-- kregiñ gant ur pennlizherenn 
+- kregiñ gant ur bennlizherenn 
 ```xml
 <h2>Liammadurioù</h2>
 <h2>Mont/Dont/Bezañ</h2>
@@ -84,8 +84,8 @@ By : Nolwenn CHEVALIER (HTML, JS, CSS) and Liza JAKEZ-VARGAS (research)
 
 #### `<span class="editor">abadenn</span>`
 - titl·où an abadenn 
-- er `<span>` : kregiñ gant ur pennlizherenn met pik ebet er fin 
-- goude ar `<span>` (n'ez eus ket atav eus an titour-mañ) : munudoù war an abadenn (lec'h, dezhiat, etc), na zisoñjit ket ar spas just goude ar `<span>` evit ma ne vefe ket peget an titouroù 
+- er `<span>` : kregiñ gant ur bennlizherenn met pik ebet er fin 
+- goude ar `<span>` (n'ez eus ket atav eus an titour-mañ) : munudoù war an abadenn (lec'h, deiziad, etc), na zisoñjit ket an esaouenn just goude ar `<span>` evit ma ne vo ket peget an titouroù 
 ```xml
 <span class="editor">Ur sizhun, un istor</span><br/>
 <span class="editor">Na petra ‘ta ; Louzaoueg Anna</span><br/>
@@ -94,7 +94,7 @@ By : Nolwenn CHEVALIER (HTML, JS, CSS) and Liza JAKEZ-VARGAS (research)
 
 #### `<span class="origin">orin</span>`
 - anv ar skigner pe an embanner
-- kregiñ gant ur pennlizherenn
+- kregiñ gant ur bennlizherenn
 - degouezh ispisial : Youtube + anv ar chadenn (da lakaat etre krommelloù)
 ```xml
 <span class="origin">Frañs 3 Breizh</span><br/>
@@ -104,8 +104,8 @@ By : Nolwenn CHEVALIER (HTML, JS, CSS) and Liza JAKEZ-VARGAS (research)
 
 #### `<span class="author">sevener·ez</span><br/>`
 - anv·ioù ar sevener·ezed 
-- ma vez meur a re : dispartiañ anezho gant ur pik-skej+spas 
-- arabat échuiñ gant ur pik-skej pe ur spas ! 
+- ma vez meur a re : dispartiañ anezho gant ur pik-skej+esaouenn 
+- arabat echuiñ gant ur pik-skej pe un esaouenn ! 
 ```xml
 <span class="author">Yann-Herle Gourves</span><br/>
 <span class="author">Ronan Hirrien ; Dewi Siberil</span><br/>
@@ -122,26 +122,26 @@ By : Nolwenn CHEVALIER (HTML, JS, CSS) and Liza JAKEZ-VARGAS (research)
 
 #### `<span class="time">pad</span><br/>`
 - pad ar video
-- 00:00:00 dle eur:munut:eilenn
+- 00:00:00 d.l.e eur:munut:eilenn
 ```xml
 <span class="time">pad</span><br/>
 ```
 
 #### `<span class="subtitle">istitloù</span><br/>`
-- doare istitloù liammet d'ar video
-- meur a talvoud posupl da zibab etre ar re-mañ  : DO, DOIBZHG, DOIGALL, treuzskrivadenn
+- doare istitloù liammet ouzh ar video
+- meur a dalvoud posupl da zibab etre ar re-mañ  : DO, DOIBZHG, DOIGALL, treuzskrivadenn
     - DO : istitloù ebet 
     - DOIBZHG : istitlet e brezhoneg 
     - DOIGALL : istitlet e galleg 
-    - treuzskrivadenn : gant fichennaoueg an treuzskrivadenn 
+    - treuzskrivadenn : gant fichennaoueg an dreuzskrivadenn 
 ```xml
 <span class="subtitle">DO</span><br/>
 <span class="subtitle">DOIGALL ; treuzskrivadenn</span><br/>
 ```
 
 #### `<span class="topic">tagoù</span>`
-- tikedenn evit titourañ an endalc'had : rummad·où pennañ ar video (anvioù boutin)
-- meur a talvoud posupl da zibab etre ar re-mañ : 
+- tikedenn evit titouriñ an endalc'had : rummad·où pennañ ar video (anvioù boutin)
+- meur a dalvoud posupl da zibab etre ar re-mañ : 
     - **A-F** : arme, boued, brezel, brezhoneg, bugale, buhez pemdez, douaroniezh, ekologiezh, ekonomiezh, endro, ereadurezh
     - **G-L** : glad, hengoun, istor, kelenn, kleweled, lennegezh, loened
     - **M-R** : micher, mojennoù, mor, natur, pennad-kaoz, plant, politikerezh, rekipe, relijion
@@ -167,7 +167,7 @@ By : Nolwenn CHEVALIER (HTML, JS, CSS) and Liza JAKEZ-VARGAS (research)
 ```
 
 #### `<p>diweradenn</p><br/>`
-- ur frazenn pe daou evit kinnig ar video 
+- ur frazenn pe ziv evit kinnig ar video 
 - penaos ober klochedigoù ?  « ABC » : `Alt+174 Alt+0160 ABC Alt+0160 Alt+175`
 ```xml
 <p>Ur sizhun soubidigezh e brezhoneg gant staj KEAV e Kastellin. </p><br/>
