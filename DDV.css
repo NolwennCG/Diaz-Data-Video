@@ -1,0 +1,164 @@
+/* Global */
+
+body {
+    font-family: "Calibri", sans-serif;
+    background: #f3f3f3;
+    text-align: justify;
+}
+
+div#choix, div#contenu {
+    background: #fff;
+    padding: 2%;
+    margin: 2%;
+    border-radius: .5rem;
+}
+
+/* Selection */
+
+div#choix #selection div {
+    /* -moz-column-width: 200px;
+    -webkit-column-width: 200px;
+    column-width: 200px; */
+    display: initial;
+}
+
+div#choix p {
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+}
+
+div#choix #selection div input {
+    margin-left: 20px ;
+    margin-right: 8px ;
+}
+
+div#choix h1 {
+    margin: 0% 0% 0% 0%;
+}
+
+div#choix h2 {
+	padding: 0% 0% 0% 0%;
+    margin: 1% 0% 0% 0%;
+}
+
+div#choix h2 span {
+    font-weight: normal;
+    font-size: 0.8em;
+    background-color: #e4e6eb;
+    color: #050505;
+    padding: 0px 12px 0px 12px;
+}
+
+ul {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-width: 200px;
+  -moz-column-width: 200px;
+  column-width: 200px;
+  list-style-type: none;
+  margin: 0,5% 2% 0% 0%;
+}
+
+/* Articles : titres */
+
+div#contenu h1 {
+    margin: 0% 0% 1% 0%;
+}
+
+article h2 {
+	font-weight: normal;
+	padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+}
+
+/* Articles : contenu */
+
+article {
+    margin: 0% 2% 0% 2%;
+}
+
+article p {
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+}
+span.editor:before {
+    content: 'Abadenn : ';
+    font-weight: bold;
+}
+span.origin:before {
+    content: 'Orin : ';
+    font-weight: bold;
+}
+span.author:before {
+    content: 'Sevener·ez : ';
+    font-weight: bold;
+}
+span.type:before {
+    content: 'Doare : ';
+    font-weight: bold;
+}
+span.time:before {
+    content: 'Pad : ';
+    font-weight: bold;
+}
+span.subtitle:before {
+    content: 'Istitloù : ' ;
+    font-weight: bold;
+}
+span.topic:before {
+    content: 'Tags : ' ;
+    font-weight: bold;
+}
+span.subject:before {
+    content: ' ; ' ;
+}
+
+/* Ancre */
+
+div#flottant {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 1.5% 3% 1% 3%;
+  float: right; 
+}
+
+div#flottant span#videoCompteurTexte {
+  border-radius: 3px;
+  padding: 10px;
+  margin-right: 8px;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.25);
+  right: 20px;
+  opacity: 1;
+  z-index: 99999;
+  transition: all ease-in 0.2s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  text-decoration: none;
+}
+
+div#flottant a#arrow {
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.25);
+  right: 20px;
+  opacity: 1;
+  z-index: 99999;
+  transition: all ease-in 0.2s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  text-decoration: none;
+}
+
+div a#arrow:before{ content: "\25b2"; }
+div a#arrow:hover{
+  background:rgba(0, 0, 0, 1);
+  transition:all ease-in 0.2s;
+}

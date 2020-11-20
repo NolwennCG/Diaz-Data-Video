@@ -1,0 +1,3318 @@
+<html lang="fr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+      <meta name="description" content="Video data base">
+      <meta name="keywords" content="breton, brezhoneg, video">
+      <meta name="author" content="Nolwenn Chevalier">
+      <meta name="contributor" content="Liza Jakez-Vargas">
+      <link href="./DDV.css" rel="stylesheet" type="text/css"><script src="./DDV.js"></script><title>KAN - videoioù</title>
+      <!--Document généré le 17/11/2020. -->
+   </head>
+   <body onload="prepare_tableau();">
+      <div id="flottant"><span id="videoCompteurTexte"><span id="videoCompteur">0</span> video kavet</span><a id="arrow" href="#choix"></a></div>
+      <div id="choix">
+         <h1>Kentelioù an noz : roll ar videoioù</h1>
+         <p><span id="videoNumber"></span> video daveennet. Hizivadenn diwezhañ : <span id="videoMAJ"></span>. </p>
+         <p>Sélectionner vos critères de recherche : les résultats cochés vont s’additionner ("et" pas "ou"). 
+         </p>
+         <div id="selection">
+            <div id="editor">
+               <h2><span>Abadenn</span></h2>
+            </div>
+            <div id="origin">
+               <h2><span>Orin</span></h2>
+            </div>
+            <div id="author">
+               <h2><span>Sevener·ez</span></h2>
+            </div>
+            <div id="type">
+               <h2><span>Doare</span></h2>
+            </div>
+            <div id="time">
+               <h2><span>Pad</span></h2>
+            </div>
+            <div id="subtitle">
+               <h2><span>Istitloù</span></h2>
+            </div>
+            <div id="topic">
+               <h2><span>Tags : temoù</span></h2>
+            </div>
+            <div id="subject">
+               <h2><span>Tags : sujedoù</span></h2>
+            </div>
+         </div>
+      </div>
+      <div id="contenu">
+         
+         <h1>Videoioù</h1>
+         
+         <!--<article>
+    <h2>Titl</h2>
+    <span class="editor">abadenn</span><br>
+    <span class="origin">orin</span> munudoù war an orin<br>
+    <span class="author">sevener·ez</span><br>
+    <span class="type">doare</span><br>
+    <span class="time">pad</span><br>
+    <span class="subtitle">istitloù</span><br>
+    <span class="topic">tagoù (anvioù boutin)</span>
+    <span class="subject">tagoù (anvioù divoutin)</span><br>
+    <p>diweradenn</p><br>
+         </article>-->
+
+         <article>
+             <h2>Titl</h2>
+             <span class="editor">abadenn</span><br>
+             <span class="origin">orin</span> munudoù war an orin<br>
+             <span class="author">sevener·ez</span><br>
+             <span class="type">doare</span><br>
+             <span class="time">pad</span><br>
+             <span class="subtitle">istitloù</span><br>
+             <span class="topic">tagoù (anvioù boutin)</span>
+             <span class="subject">tagoù (anvioù divoutin)</span><br>
+             <p>diweradenn</p><br>
+         </article>
+         
+         <article>
+            <h2>Abati Landevenneg</h2>
+            <span class="editor">Taol Lagad</span> Mae 2017<br/>
+            <span class="origin">Frañs 3 Hirwazh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">glad ; relijion ; sevenadur</span><br/>
+            <p>Diskouezadeg e abati Landevenneg. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Afer Sezneg</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; stourm</span><br/>
+            <p>An Afer Sezneg. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Al leur nevez e menez kamm</h2>
+            <span class="editor">L’ouest en mémoire</span><br/>
+            <span class="origin">INA</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:18:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg ; kelenn</span><br/>
+            <p>Staj brezhoneg e Menez Kamm. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Al loen</h2>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Filippo Meneghetti</span><br/>
+            <span class="type">film</span><br/>
+            <span class="time">00:23:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">relijion ; loened</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Kouezhañ a ra ur mesaer yaouank en toull don satanazet, e-lec'h ma vez ul loen diaoulek hervez kont. Mont a ra gwazed ar gêriadenn da glask anezhañ, daoust d’o spont. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Al louarn hag an arzh</h2>
+            <span class="editor">Mojennoù</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mojennoù ; loened</span><br/>
+            <p>Kontet gant Awen Plougoulm. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Al louzeier kimiek er vro</h2>
+            <span class="editor">4/13 munut e Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:06:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">ekologiezh ; endro</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Petra a ra al louzeier fall d’an dud ha d’ar plant ? Stourm ar roz-kamm. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Alain Kaminker ha enezidi Sun</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mor ; buhez pemdez</span><br/>
+            <p>Alain Kaminker ha enezidi Sun. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Amoco Cadiz 1978</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; micher ; politikerezh</span><br/>
+            <p>Lanv-du an Amoco Cadiz 1978. </p><br/>
+         </article>
+         
+         <article>
+            <h2>An anduilhenn</h2>
+            <span class="editor">Mojennoù</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Lionel Buanig</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mojennoù</span><br/>
+            <p>Kontet gant Jo Sergent. </p><br/>
+         </article>
+         
+         <article>
+            <h2>An arkeologiezh e Breizh</h2>
+            <span class="editor">4/13 munut e Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">skiantoù ; istor ; glad</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Penaos emañ kont an arkeologiezh e Breizh ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>An avaloù</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:07:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro ; ekonomiezh ; boued</span><br/>
+            <p>Penaos e vez produet avaloù ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>An dour mor</h2>
+            <span class="editor">Mojennoù</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:07:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mojennoù</span><br/>
+            <p>Kontet gant Maurice Poulmac’h. </p><br/>
+         </article>
+         
+         <article>
+            <h2>An eizh lur warn-ugent</h2>
+            <span class="editor">L’ouest en mémoire</span><br/>
+            <span class="origin">INA</span><br/>
+            <span class="author">André de Beaumont</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg</span><br/>
+            <p>Ar film faltazi brezhonek kentañ bet savet gant FR3. </p><br/>
+         </article>
+         
+         <article>
+            <h2>An holen</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">endro ; natur ; boued</span>
+            <span class="subject">Gwenrann</span><br/>
+            <p>Penaos e vez graet holen ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>An Oriant</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; arme ; brezel</span>
+            <span class="subject">Breizh</span><br/>
+            <p>War toenn bonn al listri-spluj. </p><br/>
+         </article>
+         
+         <article>
+            <h2>An tierse</h2>
+            <span class="editor">Mojennoù</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mojennoù</span><br/>
+            <p>Kontet gant Fañch Lozac’h. </p><br/>
+         </article>
+         
+         <article>
+            <h2>An tiez-hañv</h2>
+            <span class="editor">4/13 munut e Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:15:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">politikerezh ; ekonomiezh ; stourm ; glad</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Kudenn an tier-hañv war aodoù Breizh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>An touristerezh goude ar C’hovid</h2>
+            <span class="editor">4/13 munut e Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:07:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">ekonomiezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Ekonomiezh an touristerezh goude ar c’horonavirus. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Aneirin Karadog, barzh e douar ar varzhed</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:52:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">etrebroadel ; sevenadur</span>
+            <span class="subject">Breizh</span><br/>
+            <p>En teulfilm-mañ e kont Aneirin Karadog deomp avantur vras ar varzhoniezh kembraek, hag e yezh e vamm, ar brezhoneg, e klask heklevioù ar varzhoniezh-mañ e Breizh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Anjela Duval</h2>
+            <span class="author">Fañch Broudig</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">lennegezh</span>
+            <span class="subject">Anjela Duval</span><br/>
+            <p>Poltred ar varzhez Anjela Duval. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Anjela Duval</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">lennegezh ; sevenadur</span>
+            <span class="subject">Anjela Duval</span><br/>
+            <p>Piv a oa Anjela Duval ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Anna-Vari, dilhataerez kelc’h Plougastell</h2>
+            <span class="editor">Taol Lagad</span> Du 2016<br/>
+            <span class="origin">Frañs 3 Hirwazh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">glad ; hengoun ; sevenadur</span><br/>
+            <p>Diskouez a ra Anna-Vari penaos ober war-dro koefoù Plougastell. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Anvioù-lec’h en arvar</h2>
+            <span class="editor">Bali Breizh</span> Roazhon<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">politikerezh ; stourm ; brezhoneg</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Stourm evit derc’hel glad an anvioù-lec’h brezhonek e Terrug. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Aotrou ki hag aotrou kazh</h2>
+            <span class="editor">Mojennoù</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mojennoù ; loened</span><br/>
+            <p>Kontet gant Awen Plougoulm. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar 5G</h2>
+            <span class="editor">Bali Breizh</span> Lokorn<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; politikerezh ; endro</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Petra eo ar 5G ha perak ne fell ket d’an dud e vefe staliet. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar bisiklet</h2>
+            <span class="editor">Mojennoù</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:06:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mojennoù</span><br/>
+            <p>Kontet gant Fañch Lozac’h. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar brezhoneg er bak</h2>
+            <span class="editor">L’ouest en mémoire</span><br/>
+            <span class="origin">INA</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg ; kelenn</span><br/>
+            <p>E trepas ul lise e Brest e komzer gant liseidi yaouank eus bro Leon, eus o implij eus ar brezhoneg bemdez hag eus ar c'hentelioù a heuliont el lise. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar c’hêrioù-kreñv</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:12:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; glad</span>
+            <span class="subject">Gwenrann</span><br/>
+            <p>Penaos eo bet savet ar c’hreñvioù-lec’h ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar C’hwen</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">loened ; natur ; endro</span><br/>
+            <p>C’hwened a gaver en natur. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar Gelveneg</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sevenadur ; glad</span>
+            <span class="subject">Breizh</span><br/>
+            <p>War roudoù Jean Mingam. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar gevredigezh Ribin</h2>
+            <span class="editor">Bali Breizh</span> Douarnenez<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">glad ; sevenadur</span>
+            <span class="subject">Douarnenez</span><br/>
+            <p>Anavezout Douarnenez a-drugarez d’un droiad war varc’h-houarn. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar gouren</h2>
+            <span class="editor">Tuto Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Juliette Roger</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">hengoun ; sport</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Petra eo ar gouren ? Gant Maiwenn Salomon. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar gwenan</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:09:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">loened ; natur ; endro ; skiantoù</span><br/>
+            <p>Penaos e vez desavet gwenan ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar Gwim</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Soazig Daniellou</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:53:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg ; stourm ; politikerezh ; sevenadur ; lennegezh</span><br/>
+            <p>Familhoù o deus dibabet treuzkas hor yezh goude ar brezel. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar mojennoù</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; lennegezh ; hengoun</span><br/>
+            <p>Penaos e vez savet mojennoù, gwenganoù. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar moneiz lec’hel</h2>
+            <span class="editor">4/13 munut e Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:06:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">ekonomiezh ; sokiologiezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Da betra a servij ur moneiz lec’hel ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar moullerezh</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:11:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">teknologiezhioù ; skiantoù</span>
+            <span class="subject">Naoned</span><br/>
+            <p>Penaos eo bet krouet ar moullerezh ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar panelloù divyezhek</h2>
+            <span class="editor">4/13 munut e Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:15:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; brezhoneg</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Istor stourm ar panelloù divyezhek. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar peulvanoù</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; glad</span>
+            <span class="subject">Karnag</span><br/>
+            <p>Penaos eo bet savet peulvanoù Breizh ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar skol Diwan</h2>
+            <span class="editor">L’ouest en mémoire</span><br/>
+            <span class="origin">INA</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">kelenn</span>
+            <span class="subject">Diwan</span><br/>
+            <p>Petra eo ar skolioù Diwan e 1982. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar skolioù-mamm e brezhoneg</h2>
+            <span class="editor">L’ouest en mémoire</span><br/>
+            <span class="origin">INA</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:23:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">deskadurezh</span>
+            <span class="subject">Diwan</span><br/>
+            <p>Teulfilm ha pennad-kaoz evit komz eus ar skolioù Diwan nevez savet. Gant Ivonig ar Merdi, Gweltaz ar Fur &amp; Maurice Johano. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ar stumm nac’h</h2>
+            <span class="editor">Ar brezhoneg a gan</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">yezhadur ; brezhoneg ; kelenn</span><br/>
+            <p>Implij ar stumm nac’h e brezhoneg. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Araogennoù</h2>
+            <span class="editor">Ar brezhoneg a gan</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">yezhadur ; brezhoneg ; kelenn</span><br/>
+            <p>Araogennoù hag o verboù. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Armelle</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Bastian Gwilhou</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:26:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez</span><br/>
+            <p>Skoulmañ ar remziadoù ha kas war-raok ur preder war ar brezhoneg hag ar vuhez diwar ar maez. An amzer a ra e dro, bugaleaj ar vec'h vihan a zeuyo war-lec'h hini ar vamm-gozh heñvel ha disheñvel war un dro.. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Atant Legomaj</h2>
+            <span class="editor">Bali Breizh</span> Plougernevel<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yowan Denez</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">ekologiezh ; endro ; micher</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Labourat an douar e Mael-Pestivien. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Atant Roger Abalan</h2>
+            <span class="editor">Bali Breizh</span> Tremargad<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">ekologiezh ; endro ; micher</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Ti-feurm emvastek Roger Abalan. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Aterdadenn Rozenn Milin</h2>
+            <span class="origin">Youtube</span> (endangered language alliance)<br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:23:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Selloù Rozenn Milin war ar brezhoneg. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Awen Prigent, podour</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:14:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">micher ; sevenadur ; buhez pemdez</span><br/>
+            <p>Poltred Awen Prigent, podour e Benac’h. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Balieg</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">endro ; ekonomiezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Rivinoù ul lec’h evit berniañ maen. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Barzhonegoù Yann-Bêr Piriou</h2>
+            <span class="editor">L’ouest en mémoire</span><br/>
+            <span class="origin">INA</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm</span>
+            <span class="subject">Yann-Bêr Piriou</span><br/>
+            <p>Yann-Bêr Piriou a zispleg ar barzhonegoù bet bodet e-barzh « défense de cracher par terre et de parler breton ». </p><br/>
+         </article>
+         
+         <article>
+            <h2>Beaj skornet 1947</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mor ; etrebroadel ; skiantoù</span><br/>
+            <p>Beaj skornet 1947. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Begerel</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">lennegezh ; micher</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Levraoueg-kafe gant levrioù kozh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Beotez</h2>
+            <span class="editor">Na petra ‘ta ; Louzaoueg Anna</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro</span><br/>
+            <p>Deskiñ anavezout plant ar vro hag o implij : ar beotez. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Bernez Kloareg</h2>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Lionel Buanig</span><br/>
+            <span class="type">pennad-kaoz</span><br/>
+            <span class="time">01:00:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">skiantoù ; brezhoneg</span><br/>
+            <p>Prantad komz gant Bernez Kloareg, skiantour. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Bernez Tangi</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Mikael Baudu</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:27:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">lennegezh ; sonerezh</span><br/>
+            <p>Poltred Bernez Tangi, kaner, skrivagner. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Bez Loeiza a Gengo a Donkedeg</h2>
+            <span class="editor">Taol Lagad</span> Genver 2018<br/>
+            <span class="origin">Frañs 3 Hirwazh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">istor ; glad</span>
+            <span class="subject">Roazhon</span><br/>
+            <p>Piv a oa Loeiza a Gengo ? Petra zo bet kavet en he bez ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Bezañ (verb)</h2>
+            <span class="editor">Ar brezhoneg a gan</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">yezhadur ; brezhoneg ; kelenn</span><br/>
+            <p>Implij ar verb bezañ en amzer a-vremañ. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Biskoazh/biken/james</h2>
+            <span class="editor">Ar brezhoneg a gan</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">yezhadur ; brezhoneg ; kelenn</span><br/>
+            <p>Gant peseurt ger ober evit treiñ « jamais » ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Bistroioù Douarnenez</h2>
+            <span class="editor">Bali Breizh</span> Douarnenez<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Claire Louet</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; glad ; sevenadur ; mor</span>
+            <span class="subject">Douarnenez</span><br/>
+            <p>Istor tavarnioù Douarnenez, o ferc’hennezed hag ar vartoloded. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Blaz Breizh</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Riwal Kermarreg</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:15:00</span><br/>
+            <span class="subtitle">DOIBZHG</span><br/>
+            <span class="topic">micher ; sevenadur ; ekonomiezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Implijet e vez muioc'h mui skeudenn hag identelezh Breizh gant an embregerezhioù. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Bleuenn, paluderez</h2>
+            <span class="editor">Taol Lagad</span> Mezheven 2019<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">micher ; mor</span>
+            <span class="subject">Gwenrann</span><br/>
+            <p>Bleuenn a zispleg eo cheñchet labour evit mont da baluderez. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Boestoù-mir</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:08:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; boued ; skiantoù</span>
+            <span class="subject">Douarnenez</span><br/>
+            <p>Istor ar boestoù-mir ha penaos e vez lakaet boued enno. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Bonn-nij Landivizio</h2>
+            <span class="editor">Bali Breizh</span> Loeiz Elegoet<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; arme</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Manifestadeg a-enep da vonn-nij an aerlu e Landivizio. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Botoù-koad dre dan</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Soazig Daniellou</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:58:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sevenadur ; brezhoneg</span>
+            <span class="subject">Gwiseni</span><br/>
+            <p>"Botoù-koad dre-dan" a gont istor ur strollad tud yaouank a Blougerne, er bloavezhioù 70, o deus krouet strollad "Ar vro bagan". </p><br/>
+         </article>
+         
+         <article>
+            <h2>Breujoù Breizh</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">politikerezh ; glad ; istor</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Penaos eo bet savet Breujoù Breizh ha da betra a servijent ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Brezel bras gwelet gant Yann-Bêr Kalloc’h</h2>
+            <span class="editor">L’ouest en mémoire</span><br/>
+            <span class="origin">INA</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezel ; arme ; lennegezh</span>
+            <span class="subject">Yann-Bêr Kalloc’h</span><br/>
+            <p>Diwar skridoù Yann-Bêr Kalloc’h o kontañ ar brezel. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Brezhoneg e 6 miz</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:52:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg ; kelenn</span><br/>
+            <p>Stummadur 6 miz Stumdi dre selloù 5 stajiad·ez. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Brezhoneg e Brest</h2>
+            <span class="editor">Bali Breizh</span> Brest<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:06:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; brezhoneg</span>
+            <span class="subject">Brest</span><br/>
+            <p>Hag atav ez eus bet komzet brezhoneg e Brest ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Brug, Lann ha Balan</h2>
+            <span class="editor">Na petra ‘ta ; Louzaoueg Anna</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO ; DOIBZHG</span><br/>
+            <span class="topic">plant ; natur ; endro</span><br/>
+            <p>Deskiñ anavezout plant ar vro hag o implij : al lanneier. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Bubri</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sonerezh ; istor</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Eñvorennoù ur festival bihan savet er bloavezhioù 90. </p><br/>
+         </article>
+         
+         <article>
+            <h2>C’hoarioù koad Marcel Nohaic</h2>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DO ; treuzskrivadenn</span><br/>
+            <span class="topic">glad ; natur ; buhez pemdez</span><br/>
+            <p>Marcel Nohaic a gont ar blijadur a vez gantañ da galfichat koad. </p><br/>
+         </article>
+         
+         <article>
+            <h2>C’hoariva e brezhoneg</h2>
+            <span class="editor">Bali Breizh</span> Tifenn Lineatte<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sevenadur ; micher</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Strolladoù c’hoariva brehzonek Breizh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Chapel Santez-Anna</h2>
+            <span class="editor">Mojennoù</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mojennoù</span><br/>
+            <p>Kontet gant Angèle Jacq. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Dastum Bro-Dreger</h2>
+            <span class="origin">TV Tregor</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">sevenadur ; glad ; hengoun</span><br/>
+            <p>20 vloaz dastum bro-Dreger. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Debriñ ar bezhin </h2>
+            <span class="editor">Tuto Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Juliette Roger</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:08:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">boued ; endro ; mor</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Penaos debriñ bezhin ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Degemer mat</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Anne Gouerou</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:28:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">etrebroadel ; stourm ; politikerezh ; buhez pemdez</span><br/>
+            <p>Enkadenn an harluidi e Janglenn Calais – deuet da vezañ ar vrasañ lastez kêr en Europa e 2016 – he doa skoet an dud. Niverus e oa bet an dud e Breizh o kaout c'hoant d'ober un dra bennak. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Denez Prigent</h2>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Lionel Buanig</span><br/>
+            <span class="type">pennad-kaoz</span><br/>
+            <span class="time">01:00:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sonerezh ; brezhoneg</span><br/>
+            <p>Prantad komz gant Denez Prigent, kaner, arzour. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Denez Prigent</h2>
+            <span class="editor">Taol Lagad</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">sevenadur ; lennegezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Emgav gant Denez Prigent a-raok saloñs al levrioù e Karaez. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Deskiñ (verb)</h2>
+            <span class="editor">Ar brezhoneg a gan</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">yezhadur ; brezhoneg ; kelenn</span><br/>
+            <p>Penaos implijout ar verb « deskiñ ». </p><br/>
+         </article>
+         
+         <article>
+            <h2>Devri, lec’hienn nevez</h2>
+            <span class="editor">Taol Lagad</span> Mae 2016<br/>
+            <span class="origin">Frañs 3 Hirwazh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">brezhoneg ; glad</span>
+            <span class="subject">Martial Ménard</span><br/>
+            <p>Devri, geriadur diakronek ar brezhoneg enlinenn. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Diellevr Kemperle</h2>
+            <span class="editor">Taol Lagad</span> Here 2014<br/>
+            <span class="origin">Frañs 3 Hirwazh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:01:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">istor</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Istor bro-Gerne en Grennamzer kontet skrivet e diellevr Kemperle. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Dilestradeg Stadunaniz e Brest 1947</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezel ; etrebroadel ; arme</span><br/>
+            <p>Dilestradeg Stadunaniz e Brest 1947. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Dinarzh</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mor ; natur ; istor</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Gweladenn groc’h la Goule aux fées. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Dizalc’hiezh Brest 1944</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezel ; arme</span>
+            <span class="subject">Brest</span><br/>
+            <p>Dizalc’hiezh Brest e 1944. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Dizale</h2>
+            <span class="editor">Bali Breizh</span> Samuel Julien<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Bleuenn ar Born</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DOIBZHG</span><br/>
+            <span class="topic">sevenadur ; brezhoneg ; micher</span><br/>
+            <p>Labour ar gevredigezh Dizale war an advouezhiañ. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Dont da varzhez</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:13:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">lennegezh ; glad</span>
+            <span class="subject">Anjela Duval</span><br/>
+            <p>Diwar skouer Anjela Duval ha reoù all, penaos e teuer da vezañ barzh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Dornerez kozh Plouvien</h2>
+            <span class="editor">Taol Lagad</span> Here 2020<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:01:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">micher ; hengoun ; boued ; buhez pemdez</span><br/>
+            <p>Adimplijout ostilhoù kozh evit dornañ an ed. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Dour ha stêrioù Breizh</h2>
+            <span class="editor">Bali Breizh</span> Pauline Kerscaven<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">endro ; istor ; ekologiezh</span><br/>
+            <p>Orin ha labour ar gevredigezh D&amp;S Breizh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Dour-beuz bro-Roazhon 1966</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez</span>
+            <span class="subject">Roazhon</span><br/>
+            <p>Dour-beuz bro-Roazhon 1966. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Dour-beuz Naoned 1936</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez</span>
+            <span class="subject">Naoned</span><br/>
+            <p>Dour-beuz Naoned 1936. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Drez</h2>
+            <span class="editor">Na petra ‘ta ; Louzaoueg Anna</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO ; DOIBZHG</span><br/>
+            <span class="topic">plant ; natur ; endro</span><br/>
+            <p>Deskiñ anavezout plant ar vro hag o implij : an drez. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Emdroadur al loened</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">loened ; natur ; endro</span>
+            <span class="subject">Naoned</span><br/>
+            <p>Eus pelec’h e teu al loened ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Emsav kaolined Plezeved 1972</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; ekonomiezh ; buhez pemdez</span><br/>
+            <p>Emsav kaolined Plezeved 1972. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Enez-Vriad</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">glad ; relijion ; sonerezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Kavell Sent Breizh-Izel. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Enklask sokioyezhoniel 2018</h2>
+            <span class="editor">4/13 munut e Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg ; sokiologiezh ; politikerezh</span><br/>
+            <p>E peseurt stad emañ ar yezh e 2018 ? Petra eo ezhommoù an dud ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Erc’h e Brasparzh 1953</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez</span>
+            <span class="subject">Menez Are</span><br/>
+            <p>Erc’h e Brasparzh 1953. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Eric Tabarly hag e vag Pennduig</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sport ; mor ; istor</span><br/>
+            <p>Eric Tabarly hag e vag, Pennduig. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Falc’hañ an ed mod-kozh</h2>
+            <span class="editor">Taol Lagad</span> Here 2020<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Bleuenn ar Born</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">micher ; hengoun ; boued ; buhez pemdez</span><br/>
+            <p>Adimplijout ostilhoù kozh evit eostañ an ed. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Fanouilh</h2>
+            <span class="editor">Na petra ‘ta ; Louzaoueg Anna</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro</span><br/>
+            <p>Deskiñ anavezout plant ar vro hag o implij : ar fanouilh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Fardañ amannenn giz gwechall</h2>
+            <span class="editor">Tuto Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Juliette Roger</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">boued ; hengoun ; buhez pemdez ; micher</span><br/>
+            <p>Penaos e veze fardet an amann gwechall ? E Mirdi ar gizioù-kozh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Fardañ whisky</h2>
+            <span class="editor">Bali Breizh</span> Lannuon<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">micher ; ekonomiezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Penaos e vez fardet whisky ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>fin emgann Plougoñ 1981</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">endro ; stourm ; ekologiezh</span><br/>
+            <p>Fin stourm Plougoñ 1981. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Fin tremenerez aber Ildut</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sevenadur ; istor ; mor</span><br/>
+            <p>Fin an tremenerez e aber Ildut. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Foar Sant-Mikel Brest 1949</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sevenadur ; hengoun</span><br/>
+            <p>Foar Sant-Mikel Brest e 1949. </p><br/>
+         </article>
+         
+         <article>
+            <h2>FOG</h2>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Mads yt-Schniberg</span><br/>
+            <span class="type">film</span><br/>
+            <span class="time">00:16:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Ul labourer-douar kozh eo Czeslaw Bodrov a vez graet "Polonais" anezhañ. Emañ o vevañ e-unan goude marv e wreg. Dimezet eo e verc'h gant ur paotr eus Azia, ar pezh ne blij ket dezhañ tamm ebet. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Frañsez Kervella</h2>
+            <span class="editor">Bali Breizh</span> Milio Latimier<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; brezhoneg ; yezhadur</span>
+            <span class="subject">Frañsez Kervella</span><br/>
+            <p>Frañsez Kervella o komz diwar-benn yezhadur bras ar brezhoneg. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Fuchsia</h2>
+            <span class="editor">Na petra ‘ta ; Louzaoueg Anna</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro</span><br/>
+            <p>Deskiñ anavezout plant ar vro hag o implij : ar fuchsia. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Gallout (verb)</h2>
+            <span class="editor">Ar brezhoneg a gan</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">yezhadur ; brezhoneg ; kelenn</span><br/>
+            <p>Penaos implijout ar verb « gallout ». </p><br/>
+         </article>
+         
+         <article>
+            <h2>Gerioù estlammañ</h2>
+            <span class="editor">Ar brezhoneg a gan</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">yezhadur ; brezhoneg ; kelenn</span><br/>
+            <p>Peseurt gerioù estlammañ implijout ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Glenmor</h2>
+            <span class="editor">Boest an diell </span> Plougernevel<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Thelo Mell</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sonerezh</span>
+            <span class="subject">Glenmor</span><br/>
+            <p>Glenmor o kanañ Groñvel. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Gortoz Callac</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Bastian Gwilhou</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez ; lennegezh</span>
+            <span class="subject">Lannuon</span><br/>
+            <p>A-viskoazh eo bet troet spered Jean-Yves war-zu al levrioù, ur gwall sikour dezhañ da vevañ. C'hoant en dije bet a-walc'h d'ober un dibab all, met selaouet en deus e dad ha chomet eo ar paotr war ar vicher menajer. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Gouel Broadel ar brezhoneg</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Riwal Kermarreg</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:21:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; stourm ; brezhoneg</span><br/>
+            <p>Istor gouel broadel ar brezhoneg. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Gouel keltiek ar filmoù</h2>
+            <span class="editor">Bali Breizh</span> Samuel Julien<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">sevenadur ; etrebroadel</span><br/>
+            <p>Petra eo gouel keltiek ar filmoù ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Gouel kentañ ar rouedoù glas 1905</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sevenadur ; sonerezh</span><br/>
+            <p>Gouel kentañ ar rouedoù glas 1905. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Gourvenneg ha Leon dieub, stourm Montroulez 1961</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; ekonomiezh ; politikerezh</span><br/>
+            <p>Gourvenneg ha Leon dieub, stourm Montroulez 1961. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Govelioù Henbobnt 1957</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; glad</span><br/>
+            <p>Fin govelioù Henbont 1957. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Greunvaen ruz</h2>
+            <span class="editor">Bali Breizh</span> Aod ar vein ruz<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">douaroniezh ; istor ; kelenn</span>
+            <span class="subject">Gireg Konan ; Breizh</span><br/>
+            <p>Displegadenn savidigezh ar greunvaen gant Gireg Konan. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Gwaled</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">ekonomiezh</span>
+            <span class="subject">Naoned ; Breizh</span><br/>
+            <p>Gwinoù Breizh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Gwalldaol Roc’h Tredudon 1974</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; brezhoneg</span>
+            <span class="subject">Breizh ; Menez Are</span><br/>
+            <p>Gwalldaol ar Roc’h Tredudon 1974. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Gwechall e Douarnenez</h2>
+            <span class="editor">Boest an diell </span> Douarnenez<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Thelo Mell</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sonerezh</span>
+            <span class="subject">Douarnenez</span><br/>
+            <p>Kanaouenn friterezed Douarnenez Gwechall e oa e Douarnenez. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Gwerz bleveg Plougin</h2>
+            <span class="editor">Taol Lagad</span> Du 2017<br/>
+            <span class="origin">Frañs 3 Hirwazh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">brezel ; glad ; arme ; sonerezh</span><br/>
+            <p>Yves Jollé en deus savet ur gwerz da vare ar brezel bed kentañ. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Gwez kistin</h2>
+            <span class="editor">Na petra ‘ta ; Louzaoueg Anna</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro</span><br/>
+            <p>Deskiñ anavezout plant ar vro hag o implij : ar gwez-kistin. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Gwir da ziforc’hañ 1975</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; politikerezh</span><br/>
+            <p>Dielloù merc’hed o c’houlenn gwir da ziforc’hañ. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Harz-labour Koueron ha benelour 1975</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; ekonomiezh ; buhez pemdez</span><br/>
+            <p>Harz-labour ha benelour Koueron 1975. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Heñcher·ez e Menez Meur</h2>
+            <span class="editor">Taol Lagad</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Bleuenn ar Born</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">sevenadur ; natur ; endro</span><br/>
+            <p>Gweladenn Menez Meur e brezhoneg e-pad an hañv. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Hent-tizh KB RN164</h2>
+            <span class="editor">Bali Breizh</span> Rostrenenn<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yowan Denez</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; politikerezh ; buhez pemdez ; endro</span><br/>
+            <p>Istor raktres hent-tizh Kastellin-Roazhon. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ifig, mengleuzier mein-sklent diwezhañ Kreiz-Breizh </h2>
+            <span class="editor">Taol Lagad</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Muriel ar Morvan</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">glad ; micher ; hengoun ; buhez pemdez</span><br/>
+            <p>Mengleuzier mein-sklent diwezhañ kreiz-Breizh a ya war e leve. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Iliav</h2>
+            <span class="editor">Na petra ‘ta ; Louzaoueg Anna</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro</span><br/>
+            <p>Deskiñ anavezout plant ar vro hag o implij : an iliav. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Istor Brest</h2>
+            <span class="editor">Bali Breizh</span> Brest<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; brezel</span>
+            <span class="subject">Brest</span><br/>
+            <p>Istor Brest. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Istor Gwened</h2>
+            <span class="editor">Bali Breizh</span> Gwened<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yowan Denez</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor</span>
+            <span class="subject">Gwened</span><br/>
+            <p>Istor Gwened. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Istor Lokorn</h2>
+            <span class="editor">Bali Breizh</span> Lokorn<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor</span>
+            <span class="subject">Lokorn</span><br/>
+            <p>Istor Lokorn. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Istor Roazhon</h2>
+            <span class="editor">Bali Breizh</span> Roazhon<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yowan Denez</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor</span>
+            <span class="subject">Roazhon</span><br/>
+            <p>Istor Roazhon. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Jean Guilherm, paotr ar biniou bras</h2>
+            <span class="editor">Taol Lagad</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Bleuenn ar Born</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">glad ; istor ; sevenadur</span><br/>
+            <p>Penaos eo bet degaset ar biniou bras gant Jean Gwilherm. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Jeannot &amp; Youlia</h2>
+            <span class="editor">Bali Breizh</span> Rostrenenn<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg ; buhez pemdez</span><br/>
+            <p>Emgav etre Jeannot, dañser fisel, ha Youlia, skrivagnerez vrezhonek a Rusia. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Jeannot hag ar fisel</h2>
+            <span class="editor">Bali Breizh</span> Rostrenenn<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:09:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; hengoun</span>
+            <span class="subject">Rostrenenn ; Breizh</span><br/>
+            <p>Istor ar fisel hag ar c’henstrivadegoù dañs hervez Jeannot. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Job an Irien</h2>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Lionel Buanig</span><br/>
+            <span class="type">pennad-kaoz</span><br/>
+            <span class="time">00:41:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg ; relijion</span><br/>
+            <p>Prantad komz gant Job an Irien, beleg. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Joint Français 1972</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; ekonomiezh ; buhez pemdez</span><br/>
+            <p>Harz-labour er Joint Français 1972. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Jos, biteller Gwiseni</h2>
+            <span class="editor">Taol Lagad</span> Du 2017<br/>
+            <span class="origin">Frañs 3 Hirwazh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">micher ; buhez pemdez</span>
+            <span class="subject">Gwiseni</span><br/>
+            <p>Kempenn a ra Jos a bep seurt traoù en e garrdi. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Kabiten ha martolod</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Bastian Gwilhou</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:26:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mor ; endro ; ekonomiezh ; micher</span><br/>
+            <p>Ganet eo Tangi kostez ar mor, e Lezardrev. Lusket gant al lanv e tesko buan ar vicher martolod war ar Sant-C’hireg, ur vag vras dre lien sturiet gant he mestr Denez Bras. Poltred un Tregeriad yaouank kar-ar-mor.  </p><br/>
+         </article>
+         
+         <article>
+            <h2>Katalin Boronkai</h2>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Lionel Buanig</span><br/>
+            <span class="type">pennad-kaoz</span><br/>
+            <span class="time">01:15:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg ; kelenn</span><br/>
+            <p>Prantad komz gant Katalin Boronkai, kelennerez. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Kazimir ha c’hoarioù hengounel Breizh</h2>
+            <span class="origin">Youtube</span> (alain live)<br/>
+            <span class="author">Bastian Gwilhou</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:13:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez ; sevenadur ; hengoun</span><br/>
+            <p>Kazimir, den kreñvañ ar C’houerc’had, mailh war c’hoarioù hengounel Breizh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Keller</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">natur ; glad ; istor</span>
+            <span class="subject">Naoned ; Breizh</span><br/>
+            <p>War an harz etre Breizh ha bro Añjev. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Kenavo Martial</h2>
+            <span class="editor">Taol Lagad</span> Gwengolo 2016<br/>
+            <span class="origin">Frañs 3 Hirwazh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">brezhoneg</span>
+            <span class="subject">Breizh ; Martial Ménard</span><br/>
+            <p>E koun Martial Ménard. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Keñveriañ</h2>
+            <span class="editor">Ar brezhoneg a gan</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">yezhadur ; brezhoneg ; kelenn</span><br/>
+            <p>An derezioù keñveriañ. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Kerzhadenn GALV </h2>
+            <span class="editor">L’ouest en mémoire</span><br/>
+            <span class="origin">INA</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">kleweled ; stourm</span><br/>
+            <p>Kerzhadeg evit muioc’h a vrezhoneg er skinwel, skol &amp; kevredigezh aozet gant GALV. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Kimerc’h</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">glad ; sport</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Bourc’h dilezet Kimerc’h. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Klub rugby Gwened</h2>
+            <span class="editor">Bali Breizh</span> Gwened<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yowan Denez</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; sport</span>
+            <span class="subject">Gwened</span><br/>
+            <p>Orin klub rugby Gwened. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Koad ar skeulioù </h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Bastian Gwilhou</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:26:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez ; glad</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Andrev Guizouarn hag e vreur François a vev e ti feurm o familh e Treusvern, Bro-Dreger. Donezonet eo Andrev evit labourat ar c'hoad. Bemdez e sav skeulioù dic'hortoz... </p><br/>
+         </article>
+         
+         <article>
+            <h2>Koad Pempont</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:12:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">natur ; glad</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Peseurt kevrinoù zo gant koad Pempont ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Kontañ</h2>
+            <span class="editor">Ar brezhoneg a gan</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">yezhadur ; brezhoneg ; kelenn</span><br/>
+            <p>Penaos e vez kontet e brezhoneg ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Krampouezh e Rostrenenn</h2>
+            <span class="editor">Boest an diell </span> Tremargad<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Thelo Mell</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">boued ; sonerezh</span>
+            <span class="subject">Rostrenenn</span><br/>
+            <p>Pred krampouezh evit ur veilhadeg e Rostrenenn. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Krampouezh mouzik</h2>
+            <span class="editor">Na petra ‘ta ; Louzaoueg Anna</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro</span><br/>
+            <p>Deskiñ anavezout plant ar vro hag o implij : ar c’hrampouezh-mouzik. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Kreizenn dudi Gwengamp</h2>
+            <span class="editor">Bali Breizh</span> Gwened<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg ; bugale</span>
+            <span class="subject">Gwengamp</span><br/>
+            <p>Ar greizenn dudi kentañ e brezhoneg evit ar vugale. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Kroaz an Turk</h2>
+            <span class="editor">Mojennoù</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Lionel Buanig</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mojennoù</span><br/>
+            <p>Kontet gant Angèle Jacq. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Labour ur stal-vara</h2>
+            <span class="editor">4/13 munut e Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez ; micher ; ekonomiezh</span><br/>
+            <p>Petra eo ar vicher baraer·ez ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Landudal</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">relijion ; glad</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Iliz Sant-Tudual. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Lann Vraz</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Soazig Daniellou</span><br/>
+            <span class="type">film</span><br/>
+            <span class="time">01:40:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">endro ; kleweled</span><br/>
+            <p>Ar film-faltazi-mañ, a gont istor Gwenn, ur plac’h yaouank distro da Lann Vraz, ul ledenez gouez eus aodoù Breizh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Lañs Radio Naoned</h2>
+            <span class="editor">Taol Lagad</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Muriel ar Morvan</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">kleweled ; brezhoneg</span>
+            <span class="subject">Naoned</span><br/>
+            <p>Radio Naoned, ar radio nevez e brezhoneg e bro-Naoned. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Lanv-du Enez Eusa 1976</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">endro ; stourm ; ekologiezh</span><br/>
+            <p>Lanv-du Enez Eusa 1976. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Lenn Gwerledan</h2>
+            <span class="editor">Bali Breizh</span> Tremargad<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yowan Denez</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; natur</span>
+            <span class="subject">Gwerledan</span><br/>
+            <p>Istor lenn Gwerledan. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Liammadurioù</h2>
+            <span class="editor">Ar brezhoneg a gan</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">yezhadur ; brezhoneg ; kelenn</span><br/>
+            <p>Ober al liammadurioù a-zere. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Lid digeriñ pont Terenez 1952</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; politikerezh</span><br/>
+            <p>Lid digeriñ pont Terenez 1952. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Liken</h2>
+            <span class="editor">Na petra ‘ta ; Louzaoueg Anna</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro</span><br/>
+            <p>Deskiñ anavezout plant ar vro hag o implij : al liken. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Linad</h2>
+            <span class="editor">Na petra ‘ta ; Louzaoueg Anna</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro</span><br/>
+            <p>Deskiñ anavezout plant ar vro hag o implij : al linad. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Liseidi Naoned 1946</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez</span>
+            <span class="subject">Naoned</span><br/>
+            <p>Liseidi Naoned 1946. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Lodenn 1</h2>
+            <span class="editor">4 reolenn aour ar brezhoneg</span><br/>
+            <span class="origin">DAO</span><br/>
+            <span class="author">Youenn Chapalain</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DOIBZHG</span><br/>
+            <span class="topic">yezhadur ; ereadurezh ; kelenn ; brezhoneg</span>
+            <span class="subject">Lukian Kergoat</span><br/>
+            <p>Ar pouez-mouezh er gerioù. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Lodenn 2</h2>
+            <span class="editor">4 reolenn aour ar brezhoneg</span><br/>
+            <span class="origin">DAO</span><br/>
+            <span class="author">Youenn Chapalain</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DOIBZHG</span><br/>
+            <span class="topic">yezhadur ; ereadurezh ; kelenn ; brezhoneg</span>
+            <span class="subject">Lukian Kergoat</span><br/>
+            <p>Ar pouez-mouezh er frazennoù. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Lodenn 3</h2>
+            <span class="editor">4 reolenn aour ar brezhoneg</span><br/>
+            <span class="origin">DAO</span><br/>
+            <span class="author">Youenn Chapalain</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DOIBZHG</span><br/>
+            <span class="topic">yezhadur ; ereadurezh ; kelenn ; brezhoneg</span>
+            <span class="subject">Lukian Kergoat</span><br/>
+            <p>Hirder ha berrder ar gerioù. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Lodenn 4</h2>
+            <span class="editor">4 reolenn aour ar brezhoneg</span><br/>
+            <span class="origin">DAO</span><br/>
+            <span class="author">Youenn Chapalain</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DOIBZHG</span><br/>
+            <span class="topic">yezhadur ; ereadurezh ; kelenn ; brezhoneg</span>
+            <span class="subject">Lukian Kergoat</span><br/>
+            <p>Distagañ ar c’hensonennoù dibenn. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Lokorn</h2>
+            <span class="editor">Boest an diell </span> Lokorn<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Thelo Mell</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">micher</span>
+            <span class="subject">Lokorn</span><br/>
+            <p>Un ostaleri e-pad ar goañv, gant Augustine Chipon. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Louzaouenn an troc’h</h2>
+            <span class="editor">Taol Lagad</span> Mezheven 2015<br/>
+            <span class="origin">Frañs 3 Hirwazh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">plant ; endro ; micher</span><br/>
+            <p>Implijoù louzaouenn an troc’h. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Mael-Pestivien</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">natur ; plant</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Pourmenadenn en ur c’hoad leun a vojennoù. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Maered ar vro</h2>
+            <span class="editor">4/13 munut e Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:13:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">politikerezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Ur sell war al labour maer·ez e Breizh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Magouri Youn ha Solena</h2>
+            <span class="editor">Taol Lagad</span><br/>
+            <span class="origin">Frañs 3 Hirwazh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">bugale ; micher ; brezhoneg</span>
+            <span class="subject">Naoned</span><br/>
+            <p>Magouri dre soubidigezh e Sant-Ervlan. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Manifestadeg labourerien-douar 1961</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; ekonomiezh ; buhez pemdez</span><br/>
+            <p>Manifestadeg labourerien-douar 1961. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Mari Kermarreg</h2>
+            <span class="editor">Bali Breizh</span> Tifenn Lineatte<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">kleweled ; brezhoneg ; glad</span>
+            <span class="subject">Mari Kermarreg</span><br/>
+            <p>Buhez labour Mari Kermarreg. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Mathurin Méheut</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:10:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; sevenadur ; glad</span><br/>
+            <p>Piv a oa Mathurin Méheut ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Mell-droad merc’hed</h2>
+            <span class="editor">Bali Breizh</span> Violette le Chevert<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yowan Denez</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; sport ; politikerezh</span><br/>
+            <p>Istor mell-droad ar merc’hed e Frañs. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Menez Are ha gwarez filmoù Breizh</h2>
+            <span class="editor">Taol Lagad</span> Here 2019<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">glad ; kleweled ; sevenadur ; buhez pemdez</span>
+            <span class="subject">Menez Are</span><br/>
+            <p>An tabouliner, abadenn menez Are niverelaet gant gwarez filmoù Breizh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Meurlarjez 1954</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">hengoun</span>
+            <span class="subject">Naoned ; Brest</span><br/>
+            <p>Penaos e veze lidet Meurlarjez e Brest ha Naoned gwechall. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Mirdi ar Rezistañs</h2>
+            <span class="editor">Bali Breizh</span> Tremargad<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yowan Denez</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezel ; stourm</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Piv a oa rezistañted Breizh ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Miz Mae 1968, Jef Philippe</h2>
+            <span class="editor">Taol Lagad</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sevenadur ; stourm ; sonerezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Jef Philippe, kaner a gont 1968. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Mont/Dont/Bezañ</h2>
+            <span class="editor">Ar brezhoneg a gan</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">yezhadur ; brezhoneg ; kelenn</span><br/>
+            <p>Ober an diforc’h etre aet, bet, deuet. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Mouezh sintetek e brezhoneg</h2>
+            <span class="editor">Bali Breizh</span> Pleuveur-Bodoù<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Muriel ar Morvan</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">teknologiezhioù ; brezhoneg ; skiantoù</span>
+            <span class="subject">Lannuon</span><br/>
+            <p>Ur vouezh sintetek e brezhoneg zo o vezañ savet e Lannuon. </p><br/>
+         </article>
+         
+         <article>
+            <h2>N’eo ket echu ar fest ganimp</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:29:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sevenadur ; istor ; sonerezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>War roudoù ar c’hlarineter brudet, Hyacinthe Guégan gant Maodez Huon. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Nedeleg</h2>
+            <span class="editor">L’ouest en mémoire</span><br/>
+            <span class="origin">INA</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO ; DOIBZHG</span><br/>
+            <span class="topic">hengoun</span><br/>
+            <p>Per-Jakez Helias, Charlez &amp; Chanig ar Gall, Fañch Broudig ha Visant Seite oc’h eñvoriñ lid Nedeleg o yaouankizoù. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Nelly Blanchard</h2>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Lionel Buanig</span><br/>
+            <span class="type">pennad-kaoz</span><br/>
+            <span class="time">01:00:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg ; kelenn</span><br/>
+            <p>Prantad komz gant Nelly Blanchard, kelenenrez-enklaskerez. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Nolwenn Korbell</h2>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Lionel Buanig</span><br/>
+            <span class="type">pennad-kaoz</span><br/>
+            <span class="time">00:53:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sonerezh ; brezhoneg</span><br/>
+            <p>Prantad komz gant Nolwenn Korbell, kanerez, arzourez. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Oaled ar re baour e Roazhon </h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">ekonomiezh ; buhez pemdez</span>
+            <span class="subject">Roazhon</span><br/>
+            <p>Oaled ar re baour e Roazhon . </p><br/>
+         </article>
+         
+         <article>
+            <h2>Obidoù un arc’heskob 1930</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">relijion ; politikerezh</span><br/>
+            <p>Obidoù un arc’heskob e 1930. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Oceanopolis</h2>
+            <span class="editor">Bali Breizh</span> Brest<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mor ; natur ; skiantoù</span>
+            <span class="subject">Brest</span><br/>
+            <p>Un droiad e Oceanopolis. </p><br/>
+         </article>
+         
+         <article>
+            <h2>PA (stagell)</h2>
+            <span class="editor">Ar brezhoneg a gan</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">yezhadur ; brezhoneg ; kelenn</span><br/>
+            <p>Implijout ar stagell PA. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Pa dro Breizh war-zu ar bio</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Bleuenn ar Born</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:24:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">boued ; ekonomiezh ; ekologiezh ; endro</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Muioc’h-mui e vez produet boued bio e Breizh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Panelloù hent – OPAB</h2>
+            <span class="editor">Bali Breizh</span> Roazhon<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yowan Denez</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">micher ; brezhoneg ; glad</span><br/>
+            <p>Labour studi an OPAB evit reizhskrivañ anvioù-lec’h ar vro. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Paotred al Loc’h</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:28:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Yann-Bêr ha Fulub, paotred al Loc’h, en em gar an eil egile pemp bloaz warn-ugent zo. Nevez dimezet int, en o bro, e kreiz Breizh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Pardon ar Folgoad</h2>
+            <span class="editor">Bali Breizh</span> Loeiz Elegoet<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; relijion ; hengoun ; glad</span>
+            <span class="subject">ar Folgoad</span><br/>
+            <p>Istor Pardon ar Folgoad. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Pardon Tronoan</h2>
+            <span class="editor">Bali Breizh</span> Loeiz Elegoet<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:07:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; relijion ; hengoun ; glad</span>
+            <span class="subject">Tronoan</span><br/>
+            <p>Istor pardon Tronoan. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Penaos e kresk ar plant ?</h2>
+            <span class="editor">Na petra ‘ta</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:09:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro</span><br/>
+            <p>Penaos e kresk ar plant hag e emdroont ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Peñse ur chaluter e bae Douarnenez</h2>
+            <span class="editor">Taol Lagad</span> Gwengolo 2017<br/>
+            <span class="origin">Frañs 3 Hirwazh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">mor</span>
+            <span class="subject">Douarnenez</span><br/>
+            <p>Splujerien Douarnenez a ya da welet ur chaluter aet d’ar strad. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Plevin</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">micher ; buhez pemdez</span>
+            <span class="subject">Breizh</span><br/>
+            <p>War parkeier ar familh Salliou. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Pluguen</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; glad</span>
+            <span class="subject">Breizh</span><br/>
+            <p>War roudoù ar Rohaned. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Pondivi</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">glad ; micher ; sokiologiezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Gizioù ha yezh ar c’hemenerien e Pondivi. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Porzh Lannuon</h2>
+            <span class="editor">Bali Breizh</span> Lannuon<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor</span>
+            <span class="subject">Lannuon</span><br/>
+            <p>Istor ar porzh &amp; al Leger. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Produer legumaj bio war varc’h </h2>
+            <span class="editor">Taol Lagad</span> Ebrel 2018<br/>
+            <span class="origin">Frañs 3 Hirwazh</span><br/>
+            <span class="author">Julien le Bot</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">micher ; buhez pemdez ; ekonomiezh</span><br/>
+            <p>Labourer-douar legumaj gant sikour kezeg. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Radom Pleuveur</h2>
+            <span class="editor">Bali Breizh</span> Pleuveur-Bodoù<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; teknologiezhioù ; skiantoù</span><br/>
+            <p>Istor Radom Pleuveur. </p><br/>
+         </article>
+         
+         <article>
+            <h2>RBG – Radio Bro-Gwened</h2>
+            <span class="editor">Bali Breizh</span> Gwened<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yowan Denez</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">kleweled ; istor</span>
+            <span class="subject">Gwened</span><br/>
+            <p>Mont en-dro radio bro-Gwened. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Roazhon</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">glad</span>
+            <span class="subject">Roazhon ; Breizh</span><br/>
+            <p>Dizoleiñ koatadurioù en un ti-krampouezh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Roger al liorzhour 1 Kadvael</h2>
+            <span class="editor">Abadenn evit ar vugale</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Lionel Buanig</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro ; bugale</span><br/>
+            <p>Roger a zesk d’ar vugale anvioù ar plant ha penaos ober war o zro. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Roger al liorzhour 2 Meriadeg</h2>
+            <span class="editor">Abadenn evit ar vugale</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Lionel Buanig</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro ; bugale</span><br/>
+            <p>Roger a zesk d’ar vugale anvioù ar plant ha penaos ober war o zro. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Roger al liorzhour 3 Riwana</h2>
+            <span class="editor">Abadenn evit ar vugale</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Lionel Buanig</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro ; bugale</span><br/>
+            <p>Roger a zesk d’ar vugale anvioù ar plant ha penaos ober war o zro. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Roger al liorzhour 4 Tilio</h2>
+            <span class="editor">Abadenn evit ar vugale</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Lionel Buanig</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro ; bugale</span><br/>
+            <p>Roger a zesk d’ar vugale anvioù ar plant ha penaos ober war o zro. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Safar eus Pondi da Zanzibar</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:52:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">etrebroadel ; sevenadur ; sonerezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Ur gejadenn etre div vombard hag o sonerion : hini Breizh gant ar bagad Kerlenn Pondi hag hini Zanzibar, ar zumari, gant sonerion ar strollad Safar . </p><br/>
+         </article>
+         
+         <article>
+            <h2>Saig Jestin, medisin ar c’hleuzioù</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Riwal Kermarreg</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:11:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; ekologiezh ; endro ; natur ; micher</span><br/>
+            <p>Stourm a ra Saig Jestin a-enep an adlodennañ o treuzkas ar mod da sevel girzhier ha kleuzioù. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sant-Goneri</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">natur ; istor</span>
+            <span class="subject">Breizh</span><br/>
+            <p>War ribloù ar ganol Naoned-Brest. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sant-Jelven</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">natur</span>
+            <span class="subject">Gwerledan ; Breizh</span><br/>
+            <p>E strad lenn Gwerledan. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sant-Nazer</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mor ; natur ; istor</span>
+            <span class="subject">Breizh</span><br/>
+            <p>E traezhennoù kuzh Sant-Nazer. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sant-Nikolaz an Hent</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">natur ; istor</span>
+            <span class="subject">Naoned ; Breizh</span><br/>
+            <p>Dizoleiñ bigi bet dilezet war kanol Naoned-Brest. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sant-Pêr-Raez</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">natur ; plant</span>
+            <span class="subject">Naoned ; Breizh</span><br/>
+            <p>Gwez heverk e park kastell Sant-Per-Raez. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sant-Servant</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; glad</span>
+            <span class="subject">Breizh</span><br/>
+            <p>War roudoù ar Rezistañs. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sant-Suliav</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; glad</span>
+            <span class="subject">Breizh</span><br/>
+            <p>War roudoù ar c’hamp viking kozh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sant-Wazeg</h2>
+            <span class="editor">Un tu bennak e Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">natur ; ekologiezh ; glad ; ekonomiezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Sevel kabanennoù e-touesk ar gwez. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sarr linenn dren Gwengamp-Pempoull 1969</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez ; politikerezh</span><br/>
+            <p>Sarr linenn dren Gwengamp-Pempoull 1969. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Saveteiñ ur vag hag SNSM</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mor ; buhez pemdez ; micher</span><br/>
+            <p>Istor an SNSM. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sekred kegin : fars-forn ha kig-sall</h2>
+            <span class="editor">Bali Breizh</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yann-Herle Gourves</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">rekipe ; buhez pemdez</span>
+            <span class="subject">Brest</span><br/>
+            <p>Gant Julia e Brest. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sekred kegin : kig-bevin</h2>
+            <span class="editor">Bali Breizh</span> An Alre<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yann-Herle Gourves</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">rekipe ; buhez pemdez</span>
+            <span class="subject">Lokoal-Mendon</span><br/>
+            <p>Gant Geneviève e Lokoal-Mendon. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sekred kegin : krampouezh</h2>
+            <span class="editor">Bali Breizh</span> Roazhon<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yann-Herle Gourves</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">rekipe ; buhez pemdez</span>
+            <span class="subject">Landelo</span><br/>
+            <p>Gant Christiane e Landelo. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sekred kegin : pastez brennig</h2>
+            <span class="editor">Bali Breizh</span> Nicole Ryan<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yann-Herle Gourves</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">rekipe ; buhez pemdez</span>
+            <span class="subject">Gwiseni</span><br/>
+            <p>Gant Jakez ar Born e Gwiseni. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Skav</h2>
+            <span class="editor">Na petra ‘ta ; Louzaoueg Anna</span><br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; endro</span><br/>
+            <p>Deskiñ anavezout plant ar vro hag o implij : ar skav. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Skol Diwan kentañ 1977</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">kelenn ; istor</span>
+            <span class="subject">Diwan</span><br/>
+            <p>Ar skol Diwan kentañ 1977. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Skol kantennerezh Porspoder</h2>
+            <span class="editor">Taol Lagad</span> Meurzh 2017<br/>
+            <span class="origin">Frañs 3 Hirwazh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">buhez pemdez ; natur ; plant</span><br/>
+            <p>Dastum an ozilh evit ober paneroù. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Skol-veur C’houezelek Bro-Skos</h2>
+            <span class="origin">Youtube</span> (island voices videos)<br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg ; kelenn ; etrebroadel</span><br/>
+            <p>Diskoachadenn skol-veur Bro-Skos e brezhoneg. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Skolaj Diwan Gwened</h2>
+            <span class="editor">Tuto Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Juliette Roger</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:08:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">kelenn ; brezhoneg</span>
+            <span class="subject">Diwan</span><br/>
+            <p>Penaos eo ur skolaj Diwan ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sonerezh an natur</h2>
+            <span class="editor">Tuto Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Juliette Roger</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:07:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">plant ; natur ; sonerezh</span><br/>
+            <p>An trouzioù a c’haller ober gant plan. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Sonerezh sakr Bro-Wened</h2>
+            <span class="editor">Bali Breizh</span> Karnag<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yowan Denez</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; relijion ; sevenadur ; glad</span>
+            <span class="subject">Gwened</span><br/>
+            <p>Penaos e vez treuskaset ar sonerezh sakr e bro-Wened. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Splujañ er brezhoneg gant KEAV</h2>
+            <span class="origin">Youtube</span><br/>
+            <span class="author">Stefan Ac’h</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:53:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg ; kelenn</span><br/>
+            <p>Ur sizhun soubidigezh e brezhoneg gant staj KEAV e Kastellin. </p><br/>
+         </article>
+         
+         <article>
+            <h2>SRFC</h2>
+            <span class="editor">Bali Breizh</span> Roazhon<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yowan Denez</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:03:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; sport</span>
+            <span class="subject">Roazhon</span><br/>
+            <p>Istor klub mell-droad paotred Roazhon. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Stankell Gwerledan 1928</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">teknologiezh ; istor</span><br/>
+            <p>Stankell Gwerledan e 1928. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Struzh ha loened an inizi Glenan</h2>
+            <span class="editor">Taol Lagad</span> Mae 2018<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">plant ; natur ; endro ; ekologiezh</span><br/>
+            <p>Bleunioù dibar an inizi Glenan a ya o niver war gresk. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Stummadur war ar vicher fererezh koefoù</h2>
+            <span class="editor">Taol Lagad</span> Mezheven 2016<br/>
+            <span class="origin">Frañs 3 Hirwazh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">glad ; micher ; hengoun</span><br/>
+            <p>Deskiñ sevel dilhad hengounel breizh a-drugarez d’ur stummadur. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Tan-gwall e skolaj S.Frañsez Gwened </h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">relijion</span>
+            <span class="subject">Gwened</span><br/>
+            <p>Tan-gwall e skolaj S. Frañsez Gwened. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Teñzor an Ardeven</h2>
+            <span class="editor">Bali Breizh</span> Gwened &amp; An Taol Lagad<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Muriel ar Morvan</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO ; DOIGALL</span><br/>
+            <span class="topic">istor ; glad ; relijion ; brezhoneg</span>
+            <span class="subject">an Ardeven</span><br/>
+            <p>Skridoù kozh beleien adkavet en ur grignol en Ardeven. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Teuziñ pe beuziñ</h2>
+            <span class="editor">4/13 munut e Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:06:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">politikerezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Kendeuziñ a ra kumunioù bihan gant reoù brasoc’h. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ti-embann KVB</h2>
+            <span class="editor">Bali Breizh</span> Yann-Fañch Jacq<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:06:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">micher ; brezhoneg ; bugale ; lennegezh</span><br/>
+            <p>Mont en-dro ti-embann Keit Vimp Bev. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Tiez ar re gozh</h2>
+            <span class="editor">4/13 munut e Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:05:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez ; micher</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Petra eo ar vuhez e ti ar re gozh ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Torkad, lennegezh Bro-Wened</h2>
+            <span class="editor">Bali Breizh</span> Gwened<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Arzhur Konaneg</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">glad ; lennegezh</span>
+            <span class="subject">Gwened ; Daniel Doujet</span><br/>
+            <p>Labour strollañ lennegezh bro-Wened gant Daniel Doujet. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Torre Canyon 1967</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">endro ; stourm ; ekologiezh</span><br/>
+            <p>Lanv-du an Torre Canyon e 1967. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Tour-tan </h2>
+            <span class="editor">Tuto Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Juliette Roger</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:07:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mor ; endro</span><br/>
+            <p>Penaos eo un tour-tan ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Tredan e Breizh</h2>
+            <span class="editor">Bali Breizh</span> Rostrenenn<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">teknologiezhioù ; stourm ; politikerezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Displegadenn ar rouedad tredan e Breizh. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Treuzkas ar brezhoneg er familhoù</h2>
+            <span class="editor">4/13 munut e Breizh</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">diviz</span><br/>
+            <span class="time">00:07:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">brezhoneg ; sokiologiezh ; bugale</span><br/>
+            <p>Piv a dreuzkas ar yezh er familhoù ha perak ne vez ket graet gant lod ? </p><br/>
+         </article>
+         
+         <article>
+            <h2>Troioù-bale e Brest</h2>
+            <span class="editor">Bali Breizh</span> Brest<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Arzhur Konaneg</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:06:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sevenadur ; brezhoneg ; glad</span>
+            <span class="subject">Brest</span><br/>
+            <p>Baleadennoù tro-dro da Vrest e brezhoneg. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Troveni Lokorn</h2>
+            <span class="editor">Bali Breizh</span> Lukian Kergoat<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yowan Denez</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:08:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; relijion ; hengoun ; glad</span>
+            <span class="subject">Lokorn</span><br/>
+            <p>Istor troveni Lokorn. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Troveni Lokorn – keloù</h2>
+            <span class="editor">Bali Breizh</span> Lokorn<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; relijion ; hengoun ; glad</span>
+            <span class="subject">Lokorn</span><br/>
+            <p>Troveni Lokorn e 2019. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ur gêriadenn grennamzerel e Pontekroaz (1)</h2>
+            <span class="editor">Taol Lagad</span> 2019<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">istor ; glad ; buhez pemdez</span><br/>
+            <p>Savet e vez ur gêriadenn grennamzerel kostez Pontekroaz. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ur gêriadenn grennamzerel e Pontekroaz (2)</h2>
+            <span class="editor">Taol Lagad</span> Eost 2020<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:02:00</span><br/>
+            <span class="subtitle">DOIGALL</span><br/>
+            <span class="topic">istor ; glad ; buhez pemdez</span><br/>
+            <p>Dreveziñ buhez an dud er Grennamzer e Pontekroaz. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ur skol evit an emsav</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Yowan Denez</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:28:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; brezhoneg ; istor</span><br/>
+            <p>Istor Skol an Emsav, savet da vare he 50 vloaz. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Vakañsoù kentañ 1936</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez ; mor</span><br/>
+            <p>Vakañsoù kentañ e Breizh 1936. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Vakañsoù labourerien Dior </h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">buhez pemdez ; sokiologiezh</span><br/>
+            <p>Vakañsoù labourerien Dior. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Votadeg referendom 1962</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor ; politikerezh</span><br/>
+            <p>Votadeg referendom 1962. </p><br/>
+         </article>
+         
+         <article>
+            <h2>War hent ar repuidi</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Mikael Baudu</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:52:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">etrebroadel ; brezel ; politikerezh ; stourm</span><br/>
+            <p>Repuidi Sirian o klask mont da Alamagn. </p><br/>
+         </article>
+         
+         <article>
+            <h2>War hent marc’had Kallag</h2>
+            <span class="editor">Mojennoù</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:06:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mojennoù</span><br/>
+            <p>Kontet gant Marsel Gwilhoù. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Willy Wollf </h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">istor</span>
+            <span class="subject">Naoned</span><br/>
+            <p>Willy Wollf e Naoned. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Ya, Nann, Eo, Ket</h2>
+            <span class="editor">Ar brezhoneg a gan</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Dewi Siberil</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">yezhadur ; brezhoneg ; kelenn</span><br/>
+            <p>Deskiñ respont da frazennoù kadarn pe nac’h. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Yann Bijer, pluen an avel-vor</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Erik Gundenkauf</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:15:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">lennegezh ; brezhoneg</span><br/>
+            <p>Poltred ar skrivagner Yann Bijer dre ec’h oberennoù. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Yann Seitek</h2>
+            <span class="editor">Mojennoù</span><br/>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Lionel Buanig</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:14:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">mojennoù</span><br/>
+            <p>Kontet gant Marsel Gwilhoù. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Yann Tiersen, seniñ Eusa hag ar brezhoneg</h2>
+            <span class="origin">Brezhoweb</span><br/>
+            <span class="author">Lionel Buanig</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:08:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sonerezh ; brezhoneg</span><br/>
+            <p>Poltred ar soner Yann Tiersen. Bevañ war enez Eusa, komz brezhoneg ha raktres an Eskal. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Yann-Bêr Piriou a gont Anatole ar Braz</h2>
+            <span class="editor">Bali Breizh</span> Lannuon<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">glad ; lennegezh</span>
+            <span class="subject">Anatole ar Braz ; Yann-Bêr Piriou</span><br/>
+            <p>Buhez Anatole ar Braz kontet gant Yann-Bêr Piriou. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Yann-Fañch Kemener, tremen en ur ganañ</h2>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="author">Ronan Hirrien</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:58:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sevenadur ; glad ; sonerezh</span>
+            <span class="subject">Breizh</span><br/>
+            <p>Yann-Fañch Kemener, kaner meur gwerzioù ha kan-ha-diskan. Poltred e vuhez. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Yannig Baron</h2>
+            <span class="editor">Bali Breizh</span> Karnag<br/>
+            <span class="origin">Frañs 3 Breizh</span><br/>
+            <span class="type">keleier</span><br/>
+            <span class="time">00:04:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; brezhoneg</span>
+            <span class="subject">Karnag ; Diwan</span><br/>
+            <p>Stourm Yannig Baron evit ar brezhoneg. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Yezh ar vezh</h2>
+            <span class="origin">Ar Gedour</span><br/>
+            <span class="author">Jorj Belz</span><br/>
+            <span class="type">teulfilm</span><br/>
+            <span class="time">00:52:00</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">stourm ; brezhoneg ; kelenn</span>
+            <span class="subject">Diwan ; Breizh</span><br/>
+            <p>Penaos e veze gwelet ar brezhoneg er bloavezhioù 70 ha stourm ar yezh d’ar mare-se. </p><br/>
+         </article>
+         
+         <article>
+            <h2>Youenn Gwernig</h2>
+            <span class="editor">Ur sizhun, un istor</span><br/>
+            <span class="origin">Tebeo ; Gwarez filmoù</span><br/>
+            <span class="type">unangomz</span><br/>
+            <span class="time">00:01:30</span><br/>
+            <span class="subtitle">DO</span><br/>
+            <span class="topic">sonerezh ; lennegezh</span>
+            <span class="subject">Youenn Gwernig</span><br/>
+            <p>Piv a oa Youenn Gwernig ? </p><br/>
+         </article>
+         
+      </div>
+      <div id="footer">
+         <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International</a><br/>
+         <span>Nolwenn CHEVALIER (author) and Liza JAKEZ-VARGAS (contributor)</span>
+      </div>
+   </body>
+</html>
