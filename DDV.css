@@ -114,6 +114,20 @@ span.subject:before {
     content: ' ; ' ;
 }
 
+/* Footer */
+
+div#footer {
+    text-align: center;
+}
+
+div#footer a.licence {
+    margin-bottom: 1;
+}
+
+div#footer a {
+    text-decoration:none; 
+}
+
 /* Ancre */
 
 div#flottant {

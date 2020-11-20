@@ -58,7 +58,7 @@ By : Nolwenn CHEVALIER (HTML, JS, CSS) and Liza JAKEZ-VARGAS (research)
     - meur a talvoud (dispartiet gant esaouenn+pik-skej+esaouenn)  : `<span>AAA ; BBB ; CCC</span>`
     - talvoud ebet : ` ` (`<span>` ebet)
 - **`<br/>`** : an holl linennoù en ur `<article>` a echu gant ur `<br/>` (estreget `<span class="topic">` ma vez heuliet gant `<span class="subject">`)
-- a-raok leunian anv un abadenn, ur sevener·ez, etc, kit da welet e checkboxoù an HTML evit gwelet ma 'vez outan dija ha penaos eo skrivet
+- a-raok leuniañ anv un abadenn, ur sevener·ez, etc, kit da welet e checkboxoù an HTML evit gwelet ma 'vez outañ dija ha penaos eo skrivet
 
 | elfen                     |  niver a talvoudoù posupl   | doare               |
 |---------------------------|-----------------------------|---------------------|
